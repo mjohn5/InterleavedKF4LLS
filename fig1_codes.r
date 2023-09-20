@@ -23,7 +23,7 @@ mse.1.mat  <- mse.2.mat  <- mse.3a.mat  <- mse.3b.mat  <- mse.4.mat  <- matrix(,
 
   alpha <- 0.25 ## try 0.5, 0.4, 0.25, 0.05
 
-  mu.1 <- runif(1, -10, 10); mu.2 <- runif(1, -10, 10); mu.12 <- alpha*mu.1 + (1-alpha)*mu.2
+  mu.1 <- runif(1, -10, 10); mu.2 <- runif(1, -10, 10); 
 
 
 
