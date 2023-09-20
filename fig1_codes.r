@@ -231,8 +231,8 @@ print(beta.3b.mat/M)
 print(beta.4.mat/M)
 
 
-#################################################################################################################
-######## Figure - 1 ( we didn't set the seed, so the results will be (very) slightly different than in the paper 
+#####################################################################################################################
+######## Figure - 1 ( we didn't set the seed, so the results will be (very) slightly different from Fig-1 in the paper 
 
 par(mfrow = c(1,2))
 #   plot(c(1:p), mean.bias.4.vec, type = "b", col = "green", xlab = "iterations", ylab = "bias over iterations", ylim =c(bmin, bmax), lwd = 2, pch = 16, cex.lab = 1.75, cex.axis = 1.75)
